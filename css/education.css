@@ -63,12 +63,18 @@ section{
     margin-left: 3%;
     margin-right:2%;
  
+ 
 }
 .edu{
     height: 50px;
     width: 50px;
     float: left;
 }
+
+ul p{
+margin-left: 5px;
+}
+
 ul li a{
     color: black;
 }
