@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0px;
+    padding: 10px;
+    background: rgb(245, 240, 240);
+    /*text-align: center;*/
+}
+
+
+header, footer
+{
+    border-radius: 5px;
+}
+.wrapper
+{
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.logo
+{
+    font-style: italic;
+    text-decoration-color: #6e2f2f;
+    color:#f34949;
+}
+ul
+{
+    list-style-type: none;
+}
+video{
+    width: 100%;
+}
+
+table{
+    width: 230px;
+    
+    
+}
+th{
+    text-align: left;
+}
+table , th , td {
+    border: 1px solid #6e2f2f;
+    border-collapse: collapse;
+    
+}
+caption{
+    font-style: italic;
+}
+th, td {
+    padding: 5px;
+}
+tr:nth-child(even){
+    background-color: rgb(210, 238, 229);
+}
+tr:nth-child(odd){
+    background-color: rgb(210, 238, 229);
+}
+
+header nav li
+{
+    float: right;
+    list-style-type: none;
+    margin: 10px 20px;
+    color:#f34949;
+}
+header nav li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    color:#f34949;
+    font-style: italic;
+}
+.responsive{
+    background: white;
+    overflow: auto;
+    padding: 6px;
+    float: left;
+    width: 24.99999%;
+}
+.gallery{
+    border: 1px solid #ccc;
+
+}
+.gallery:hover{
+    border:1px solid #777;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding:15px;
+    text-align: center;
+}
+
+
+
+section{
+ width: 20%;
+ float:left;
+ height: 400px;
+}
+.right{
+    width: 75%;
+    float:right;
+    height: 400px;
+    margin-left: 3%;
+    margin-right:2%;
+ 
+}
+
+.edu{
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+ul li a{
+    color: black;
+}
+.main *{
+    border-radius: 10px;
+
+}
+
+.main {
+    margin:10px 0px;
+}
+.main::after{
+    content:"";
+    clear:both;
+    display: table;
+}
+span {
+    font-size: 12px;
+    padding-left: 0.5em;
+}
+.type{
+    list-style-type: disc;
+}
+.work{
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-right: 1.5em;
+}
+audio{
+    float: left;
+    width: 90%;
+}
